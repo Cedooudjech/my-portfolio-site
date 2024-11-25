@@ -5,9 +5,9 @@
   "source": "src/index.html",
   "homepage": "https://Cedooudjech.github.io/my-portfolio-site",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://Cedooudjech.github.io/my-portfolio-site'",
+    "start": "parcel src/index.html --no-cache", 
+    "build": "parcel build src/index.html --no-cache",
+    "build-gh": "parcel build src/index.html --public-url 'https://Cedooudjech.github.io/my-portfolio-site' --no-cache",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },

@@ -1,0 +1,294 @@
+/**
+* CSS file to hold styles that apply across the application
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+div#main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+}
+
+section.min-height {
+  min-height: 100vh;
+}
+
+section.padding {
+  padding: 5rem 0;
+}
+
+section img.background {
+  height: 100%;
+  left: 50%;
+  object-fit: cover;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, 0);
+  width: 100vmax;
+  z-index: -1;
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 7rem;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+p.large {
+  font-size: 24px;
+}
+
+p.small {
+  font-size: 15px;
+}
+
+hr {
+  margin: 2.5rem;
+}
+
+li {
+  line-height: 1.7;
+}
+
+li::marker {
+  color: #4e567e;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4e567e;
+}
+
+.container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 330px 300px;
+  margin: 20px auto;
+}
+
+.container .box {
+  border-radius: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+/* 
+ * Styles for social media icon images in the Footer component.
+* 
+ * The .socialIcon class is used to style images that represent social media icons.
+ * This class ensures that the icons are displayed with consistent dimensions and appearance 
+ * across different social media platforms.
+ */
+img.socialIcon {
+  height: 35px;
+  width: 35px;
+}
+
+/* Add a sliding animation in the Portfolio component */
+
+.animated-image {
+  height: 10%;
+  width: 100%;
+  object-fit: cover;
+  animation: 1s ease-out 0.5s 1 slideInLeft;
+}
+
+/* 
+ * Add responsive styles for the elements with classes 'box' and 'info-box', 
+ * including hover effects in the portfolio component.
+ */
+ 
+.Responsivecontainer .Responsivebox{
+  border-radius: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 16px;
+  text-align: center;
+  padding: 2rem 3rem;
+  margin: 25px 20px 25px 10px; 
+}
+
+.Responsivebox{
+  transition: transform 1s ease;
+}
+
+.Responsivebox:hover{
+  transform: scale(1.12);
+  border-radius: 20px;
+  border: 3px solid rgb(180, 45, 151);
+  cursor: pointer;
+}
+
+.box {
+  transition: transform 1s ease;
+}
+
+.box:hover {
+  transform: scale(1.12);
+  border-radius: 20px;
+  border: 3px solid rgb(180, 45, 151);
+  cursor: pointer;
+}
+
+.info-button {
+  display: none;
+  align-items: center;
+  justify-content: center; 
+  font-weight: bold;
+  padding: 0.625rem 1.25rem;
+  transform: translateX(5%);
+  white-space: nowrap;
+  margin: 10 auto;
+  box-sizing: content-box;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  left: 50%;
+  transition: background-color 0.3s ease;
+
+}
+
+.info-button:hover {
+  background-color: #555;
+}
+
+.box:hover .info-button {
+  display: block;
+}
+
+.Responsivebox:hover .info-button {
+  display: block;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100; /* Ensure it is above the footer */
+  margin-top: 1%;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  width: 80%;
+  max-width: 800px; 
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+.close-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.close-button:hover {
+  background-color: #555;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  z-index: 10;
+  opacity: 5;
+}
+
+/* 
+ * Keyframe animations for bounce and slideInLeft effects.
+ * 
+ * The bounce animation creates a bouncing effect by moving the element up and down.
+ * The slideInLeft animation makes the element slide in from the left with a fade-in effect.
+ */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

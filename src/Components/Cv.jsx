@@ -11,7 +11,7 @@ import PropTypes from "prop-types"; // Import the PropTypes module
 import Responsive from "./Responsive"; // Import the Responsive component
 
 const srcCv =
-  "https://drive.google.com/file/d/1MTnEgRRp_A9a-gf0m1fg6GS5gw8kyRAA/view?usp=drive_link";
+  "https://drive.google.com/file/d/1pj9N7blJ3O1Nq2FCxUJAiYyUNtY-_xs8/view?usp=drive_link";
 
 const Cv = (props) => {
   const { backgroundColor, color } = props;

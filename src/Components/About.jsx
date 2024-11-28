@@ -105,7 +105,7 @@ const About = () => {
         </ul>
         <hr />
         <p style={{ padding: "1rem 2rem 0" }}>
-          {detailOrQuote}, {detailOrQuote}
+          {detailOrQuote}
           <div>
             <Cv />
           </div>

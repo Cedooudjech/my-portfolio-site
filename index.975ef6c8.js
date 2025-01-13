@@ -28755,7 +28755,7 @@ var _propTypes = require("prop-types"); // Import the PropTypes module
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _responsive = require("./Responsive"); // Import the Responsive component
 var _responsiveDefault = parcelHelpers.interopDefault(_responsive);
-const srcCv = "https://drive.google.com/file/d/1pj9N7blJ3O1Nq2FCxUJAiYyUNtY-_xs8/view?usp=drive_link";
+const srcCv = "https://drive.google.com/file/d/1S22Nx0WeAWA4ey8CyFE_Np6xV_uZ1r38/view?usp=sharing";
 const Cv = (props)=>{
     const { backgroundColor, color } = props;
     const handleDownload = ()=>{
@@ -28798,7 +28798,7 @@ const Cv = (props)=>{
                 children: "Download CV"
             }, void 0, false, {
                 fileName: "src/Components/Cv.jsx",
-                lineNumber: 43,
+                lineNumber: 42,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -28817,13 +28817,13 @@ const Cv = (props)=>{
                 children: "View CV"
             }, void 0, false, {
                 fileName: "src/Components/Cv.jsx",
-                lineNumber: 59,
+                lineNumber: 58,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Cv.jsx",
-        lineNumber: 32,
+        lineNumber: 31,
         columnNumber: 5
     }, undefined);
 };

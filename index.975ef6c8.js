@@ -27255,6 +27255,7 @@ var _stylesCss = require("./styles.css");
     medium: "",
     twitter: "",
     youTube: "",
+    rootMe: "DreamsOfLicorne",
     phone: "+33 7 51 56 51 39"
 };
 const primaryColor = "#4E567E";
@@ -27265,7 +27266,7 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 45,
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
@@ -27273,17 +27274,17 @@ const App = ()=>{
                 title: siteProps.title
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 46,
+                lineNumber: 47,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 47,
+                lineNumber: 48,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 48,
+                lineNumber: 49,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
@@ -27292,13 +27293,13 @@ const App = ()=>{
                 secondaryColor: secondaryColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 49,
+                lineNumber: 50,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.jsx",
-        lineNumber: 44,
+        lineNumber: 45,
         columnNumber: 5
     }, undefined);
 };
@@ -27347,9 +27348,9 @@ const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
  */ const description = `
-  My name is Cedric CHEDJOU and I am a first-year Master's student in Cybersecurity at HETIC, Montreuil-France and CAMPUS CYBER. 
-  Passionate about cybersecurity, I am currently looking for an apprenticeship as a Cybersecurity Apprentice,
-  although I am open to different responsibilities, I have a particular preference for the position of Assistant
+  My name is Cedric CHEDJOU and I am a first-year Master's student in Cybersecurity at HETIC, Montreuil-France and CAMPUS CYBER.
+  Passionate about cybersecurity, I am currently looking for an internship or apprenticeship in Cybersecurity.
+  Although I am open to different responsibilities, I have a particular preference for the position of Assistant
   CISO. I enjoy solving complex problems and innovating to make technology accessible to everyone.
 `;
 /**
@@ -29067,13 +29068,15 @@ var _youtubeSvg = require("../images/socials/youtube.svg");
 var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
 var _phoneSvg = require("../images/socials/phone.svg");
 var _phoneSvgDefault = parcelHelpers.interopDefault(_phoneSvg);
+var _rootmeSvg = require("../images/socials/rootme.svg");
+var _rootmeSvgDefault = parcelHelpers.interopDefault(_rootmeSvg);
 /**
  * 💡 Learning resources
  *
  *  HTML hyperlinks: https://www.w3schools.com/html/html_links.asp
  *  Opening links in new tabs: https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
  */ const Footer = (props)=>{
-    const { devDotTo, email, gitHub, instagram, linkedIn, medium, name, primaryColor, twitter, youTube, phone } = props;
+    const { devDotTo, email, gitHub, instagram, linkedIn, medium, name, primaryColor, twitter, youTube, rootMe, phone } = props;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         "aria-label": "Icons to contact me",
         id: "footer",
@@ -29102,12 +29105,12 @@ var _phoneSvgDefault = parcelHelpers.interopDefault(_phoneSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 69,
+                            lineNumber: 71,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 68,
+                        lineNumber: 70,
                         columnNumber: 11
                     }, undefined),
                     devDotTo && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -29120,12 +29123,12 @@ var _phoneSvgDefault = parcelHelpers.interopDefault(_phoneSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 74,
+                            lineNumber: 76,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 73,
+                        lineNumber: 75,
                         columnNumber: 11
                     }, undefined),
                     gitHub && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -29138,12 +29141,12 @@ var _phoneSvgDefault = parcelHelpers.interopDefault(_phoneSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 79,
+                            lineNumber: 81,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 78,
+                        lineNumber: 80,
                         columnNumber: 11
                     }, undefined),
                     instagram && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -29156,12 +29159,12 @@ var _phoneSvgDefault = parcelHelpers.interopDefault(_phoneSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 88,
+                            lineNumber: 90,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 83,
+                        lineNumber: 85,
                         columnNumber: 11
                     }, undefined),
                     linkedIn && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -29174,12 +29177,12 @@ var _phoneSvgDefault = parcelHelpers.interopDefault(_phoneSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 97,
+                            lineNumber: 99,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 92,
+                        lineNumber: 94,
                         columnNumber: 11
                     }, undefined),
                     medium && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -29192,12 +29195,12 @@ var _phoneSvgDefault = parcelHelpers.interopDefault(_phoneSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 102,
+                            lineNumber: 104,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 101,
+                        lineNumber: 103,
                         columnNumber: 11
                     }, undefined),
                     twitter && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -29210,12 +29213,12 @@ var _phoneSvgDefault = parcelHelpers.interopDefault(_phoneSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 107,
+                            lineNumber: 109,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 106,
+                        lineNumber: 108,
                         columnNumber: 11
                     }, undefined),
                     youTube && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -29228,12 +29231,30 @@ var _phoneSvgDefault = parcelHelpers.interopDefault(_phoneSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 116,
+                            lineNumber: 118,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 111,
+                        lineNumber: 113,
+                        columnNumber: 11
+                    }, undefined),
+                    rootMe && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: `https://www.root-me.org/${rootMe}`,
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: (0, _rootmeSvgDefault.default),
+                            alt: "root-me",
+                            className: "socialIcon"
+                        }, void 0, false, {
+                            fileName: "src/Components/Footer.jsx",
+                            lineNumber: 123,
+                            columnNumber: 13
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/Components/Footer.jsx",
+                        lineNumber: 122,
                         columnNumber: 11
                     }, undefined),
                     phone && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -29244,18 +29265,18 @@ var _phoneSvgDefault = parcelHelpers.interopDefault(_phoneSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 121,
+                            lineNumber: 128,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 120,
+                        lineNumber: 127,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 60,
+                lineNumber: 62,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29270,13 +29291,13 @@ var _phoneSvgDefault = parcelHelpers.interopDefault(_phoneSvg);
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 125,
+                lineNumber: 132,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Footer.jsx",
-        lineNumber: 47,
+        lineNumber: 49,
         columnNumber: 5
     }, undefined);
 };
@@ -29293,6 +29314,7 @@ Footer.propTypes = {
     medium: (0, _propTypesDefault.default).string,
     name: (0, _propTypesDefault.default).string.isRequired,
     primaryColor: (0, _propTypesDefault.default).string,
+    rootMe: (0, _propTypesDefault.default).string,
     twitter: (0, _propTypesDefault.default).string,
     youTube: (0, _propTypesDefault.default).string,
     phone: (0, _propTypesDefault.default).string
@@ -29306,7 +29328,7 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/socials/devdotto.svg":"69cpV","../images/socials/envelope.svg":"92UhI","../images/socials/github.svg":"vP2m6","../images/socials/instagram.svg":"jH0VA","../images/socials/linkedin.svg":"5XSmz","../images/socials/medium.svg":"cDDa0","../images/socials/twitter.svg":"flM6L","../images/socials/youtube.svg":"hmN7D","../images/socials/phone.svg":"fiBOV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"69cpV":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/socials/devdotto.svg":"69cpV","../images/socials/envelope.svg":"92UhI","../images/socials/github.svg":"vP2m6","../images/socials/instagram.svg":"jH0VA","../images/socials/linkedin.svg":"5XSmz","../images/socials/medium.svg":"cDDa0","../images/socials/twitter.svg":"flM6L","../images/socials/youtube.svg":"hmN7D","../images/socials/phone.svg":"fiBOV","../images/socials/rootme.svg":"6Wnfv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"69cpV":[function(require,module,exports,__globalThis) {
 module.exports = require("44ce4ad004cf5a22").getBundleURL('bLxZJ') + "devdotto.3bb7afaf.svg" + "?" + Date.now();
 
 },{"44ce4ad004cf5a22":"lgJ39"}],"92UhI":[function(require,module,exports,__globalThis) {
@@ -29333,7 +29355,10 @@ module.exports = require("7ab57dbc742b6209").getBundleURL('bLxZJ') + "youtube.c3
 },{"7ab57dbc742b6209":"lgJ39"}],"fiBOV":[function(require,module,exports,__globalThis) {
 module.exports = require("c8c4e9dd7b3665f2").getBundleURL('bLxZJ') + "phone.ed13874f.svg" + "?" + Date.now();
 
-},{"c8c4e9dd7b3665f2":"lgJ39"}],"9Dt2F":[function(require,module,exports,__globalThis) {
+},{"c8c4e9dd7b3665f2":"lgJ39"}],"6Wnfv":[function(require,module,exports,__globalThis) {
+module.exports = require("ee4072786eae8cfb").getBundleURL('bLxZJ') + "rootme.3c34afc0.svg" + "?" + Date.now();
+
+},{"ee4072786eae8cfb":"lgJ39"}],"9Dt2F":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$2a62 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;

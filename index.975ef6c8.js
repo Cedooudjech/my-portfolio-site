@@ -27460,8 +27460,6 @@ const About = ()=>{
                         },
                         children: [
                             detailOrQuote,
-                            ", ",
-                            detailOrQuote,
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cvDefault.default), {}, void 0, false, {
                                     fileName: "src/Components/About.jsx",

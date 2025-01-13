@@ -20,6 +20,7 @@ import mediumIcon from "../images/socials/medium.svg";
 import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
 import phoneIcon from "../images/socials/phone.svg";
+import rootmeIcon from "../images/socials/rootme.svg";
 
 /**
  * 💡 Learning resources
@@ -40,6 +41,7 @@ const Footer = (props) => {
     primaryColor,
     twitter,
     youTube,
+    rootMe,
     phone,
   } = props;
 
@@ -116,6 +118,11 @@ const Footer = (props) => {
             <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
           </a>
         )}
+        {rootMe && (
+          <a href={`https://www.root-me.org/${rootMe}`} target="_blank" rel="noopener noreferrer">
+            <img src={rootmeIcon} alt="root-me" className="socialIcon" />
+          </a>
+        )}
         {phone && (
           <a href={`tel:${phone}`}>
             <img src={phoneIcon} alt="Phone" className="socialIcon" />
@@ -142,6 +149,7 @@ Footer.propTypes = {
   medium: PropTypes.string,
   name: PropTypes.string.isRequired,
   primaryColor: PropTypes.string,
+  rootMe: PropTypes.string,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
   phone: PropTypes.string,

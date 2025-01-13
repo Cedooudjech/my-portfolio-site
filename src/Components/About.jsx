@@ -30,9 +30,9 @@ const imageAltText = "purple and blue abstract background";
  */
 
 const description = `
-  My name is Cedric CHEDJOU and I am a first-year Master's student in Cybersecurity at HETIC, Montreuil-France and CAMPUS CYBER. 
-  Passionate about cybersecurity, I am currently looking for an apprenticeship as a Cybersecurity Apprentice,
-  although I am open to different responsibilities, I have a particular preference for the position of Assistant
+  My name is Cedric CHEDJOU and I am a first-year Master's student in Cybersecurity at HETIC, Montreuil-France and CAMPUS CYBER.
+  Passionate about cybersecurity, I am currently looking for an internship or apprenticeship in Cybersecurity.
+  Although I am open to different responsibilities, I have a particular preference for the position of Assistant
   CISO. I enjoy solving complex problems and innovating to make technology accessible to everyone.
 `;
 
@@ -105,7 +105,7 @@ const About = () => {
         </ul>
         <hr />
         <p style={{ padding: "1rem 2rem 0" }}>
-          {detailOrQuote}, {detailOrQuote}
+          {detailOrQuote}
           <div>
             <Cv />
           </div>

@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Cedric Chedjou",
-  title: "Cybersecurity Apprentice",
+  title: "Looking for an internship or apprenticeship in Cybersecurity",
   email: "c_tallachedjou@hetic.eu",
   gitHub: "Cedooudjech",
   instagram: "",
@@ -33,6 +33,7 @@ const siteProps = {
   medium: "",
   twitter: "",
   youTube: "",
+  rootMe: "DreamsOfLicorne",
   phone: "+33 7 51 56 51 39",
 };
 

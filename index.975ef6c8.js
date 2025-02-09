@@ -28755,7 +28755,7 @@ var _propTypes = require("prop-types"); // Import the PropTypes module
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _responsive = require("./Responsive"); // Import the Responsive component
 var _responsiveDefault = parcelHelpers.interopDefault(_responsive);
-const srcCv = "https://drive.google.com/file/d/1S22Nx0WeAWA4ey8CyFE_Np6xV_uZ1r38/view?usp=sharing";
+const srcCv = "https://drive.google.com/file/d/1RBP1sRvr_PupEqfWD0_qMti32t80cNJh/view?usp=sharing";
 const Cv = (props)=>{
     const { backgroundColor, color } = props;
     const handleDownload = ()=>{
@@ -29328,7 +29328,7 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/socials/devdotto.svg":"69cpV","../images/socials/envelope.svg":"92UhI","../images/socials/github.svg":"vP2m6","../images/socials/instagram.svg":"jH0VA","../images/socials/linkedin.svg":"5XSmz","../images/socials/medium.svg":"cDDa0","../images/socials/twitter.svg":"flM6L","../images/socials/youtube.svg":"hmN7D","../images/socials/phone.svg":"fiBOV","../images/socials/rootme.svg":"6Wnfv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"69cpV":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/socials/devdotto.svg":"69cpV","../images/socials/envelope.svg":"92UhI","../images/socials/github.svg":"vP2m6","../images/socials/instagram.svg":"jH0VA","../images/socials/linkedin.svg":"5XSmz","../images/socials/medium.svg":"cDDa0","../images/socials/twitter.svg":"flM6L","../images/socials/youtube.svg":"hmN7D","../images/socials/phone.svg":"fiBOV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/socials/rootme.svg":"6Wnfv"}],"69cpV":[function(require,module,exports,__globalThis) {
 module.exports = require("44ce4ad004cf5a22").getBundleURL('bLxZJ') + "devdotto.3bb7afaf.svg" + "?" + Date.now();
 
 },{"44ce4ad004cf5a22":"lgJ39"}],"92UhI":[function(require,module,exports,__globalThis) {

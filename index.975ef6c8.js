@@ -29722,7 +29722,7 @@ const Portfolio = ()=>{
    */ const projectList = [
         {
             title: "My Resume Website \uD83C\uDF89",
-            description: "Created using my own web development knowledge and deployed on GitHub Pages. Includes my experience and design skills. You will learn how to use or manipulate a container with multiple extensions using GitHub Codespaces and you can also duplicate and customize this site for yourself.",
+            description: "Created using my own web development knowledge and deployed on GitHub Pages. Includes my experience and cybersecurity skills. You will learn how to use or manipulate a container with multiple extensions using GitHub Codespaces and you can also duplicate and customize this site for yourself.",
             url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
         },
         {

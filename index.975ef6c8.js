@@ -28755,7 +28755,7 @@ var _propTypes = require("prop-types"); // Import the PropTypes module
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _responsive = require("./Responsive"); // Import the Responsive component
 var _responsiveDefault = parcelHelpers.interopDefault(_responsive);
-const srcCv = "https://drive.google.com/file/d/1RBP1sRvr_PupEqfWD0_qMti32t80cNJh/view?usp=sharing";
+const srcCv = "https://drive.google.com/file/d/1Uh_6SZcgHyUTex4COmpK1fmZUeiN174V/view?usp=sharing";
 const Cv = (props)=>{
     const { backgroundColor, color } = props;
     const handleDownload = ()=>{
